@@ -1609,22 +1609,6 @@
     (pin "2" (uuid ecde954b-9022-494b-a8d3-6e380f26c2c5))
   )
 
-  (symbol (lib_id "power:VCC") (at 73.66 204.47 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
-    (uuid 380f574c-740c-4493-ac09-b6204a14e299)
-    (property "Reference" "#PWR0105" (id 0) (at 73.66 208.28 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "VCC" (id 1) (at 73.66 199.39 0))
-    (property "Footprint" "" (id 2) (at 73.66 204.47 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 73.66 204.47 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid a076dc82-0545-41cd-9a70-a0719bb6b0cc))
-  )
-
   (symbol (lib_id "power:Earth") (at 237.49 45.72 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 388b7960-cc54-45ba-ac06-ba0c1b9ee9fc)
@@ -2419,9 +2403,6 @@
     )
     (path "/1cc78dd4-50ab-474a-992c-b6351368e3da"
       (reference "#PWR0104") (unit 1) (value "VCC") (footprint "")
-    )
-    (path "/380f574c-740c-4493-ac09-b6204a14e299"
-      (reference "#PWR0105") (unit 1) (value "VCC") (footprint "")
     )
     (path "/fe818be0-84fc-4664-9c95-5842df1ae8f5"
       (reference "#PWR0106") (unit 1) (value "Earth") (footprint "")
